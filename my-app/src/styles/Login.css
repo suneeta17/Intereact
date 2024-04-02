@@ -1,0 +1,140 @@
+.main-content {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .login-nav-bar {
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    padding-left: 2vw;
+  }
+  
+  .home-link {
+    width: 5vw;
+    padding: 10px;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-link a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .home-link a:hover {
+    color: red;
+  }
+  
+  .login-main-container {
+    height: calc(100vh - 13vh);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .login-about {
+    height: 50vh;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Comfortaa", monospace;
+  }
+  
+  .login-container {
+    height: 62vh;
+    width: 27vw;
+    border: 3px black solid;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightyellow;
+  }
+  
+  .login-form {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  input {
+    height: 50px;
+    width: 80%;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 12px;
+    padding-left: 0.5vh;
+    margin-left: 0.5vw;
+    font-size: 24px;
+    background-color: inherit;
+    outline: none;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 12px;
+  }
+  
+  input:focus {
+    background-color: white;
+    border-color: gray;
+  }
+  
+  button {
+    height: 6vh;
+    width: 10vw;
+    font-size: 20px;
+    color: white;
+    border: 3px solid black;
+    background-color: brown;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    box-shadow: 0 4px black;
+  }
+  
+  button:hover {
+    color: white;
+  }
+  
+  button:active {
+    box-shadow: 0 2px black;
+    transform: translateY(2px);
+  }
+  
